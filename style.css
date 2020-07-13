@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: rgb(255,225,105);
+  background: linear-gradient(0deg, rgba(255,225,105,1) 0%, rgba(255,255,255,1) 20%);
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  /*font-style: italic;*/
+  color: #373fff;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2em; 
+}
+
+h3 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 2em; 
+  
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  text-align: center;
+}
+  
+.answer-choice img {
+  border-radius: 12px;
+  justify-content: space-evenly;
+  height: 15em;
+  /*font-size: 1px;*/
+}
+
+button{
+  margin: 10px;
+}
+
+.button {
+  background-color: #108690;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #2f3180; 
+  color: white;
+}
